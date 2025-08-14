@@ -1,0 +1,97 @@
+/* CSS */
+p{
+    color:darkgreen;
+}
+
+/*Valores de la propiedad display*/
+.block-element {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.inline-element {
+    display: inline;
+    color: red;
+    font-weight: bold;
+}
+
+.inline-block-element {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 10px;
+}
+
+/*Propiedades de posicionamiento*/
+.static-box {
+    position: static;
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+.fixed-box {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.sticky-container {
+    height: 1000px;
+    background-color: lightyellow;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 10px;
+    background-color: lightpink;
+    padding: 10px;
+}
+
+
+/*Propiedades de flexbox*/
+.flex-container { 
+    display: flex; 
+    background-color: lightgray; 
+    justify-content: center;
+}
