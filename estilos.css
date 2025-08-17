@@ -95,3 +95,27 @@ p{
     background-color: lightgray; 
     justify-content: center;
 }
+
+/*Grids*/
+.containers {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 200px;
+    grid-template-areas:
+        "header header header"
+        "sidebar main .";
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.main {
+    grid-area: main;
+}
